@@ -35,11 +35,13 @@ class ZhiHuLogin(object):
         self.wait = WebDriverWait(self.browser, timeout=10)
         self.action_chains = ActionChains(self.browser)
 
-        self.username = "13082808996"  # 登入用户名
-        self.password = "qcl1234567890"  # 登入密码
+        self.username = ""  # 登入用户名
+        self.password = ""  # 登入密码
         self.retry_click_times = 3  # 重复点击登入按钮，触发点触验证码的出现
-
-        self.chaojiying = Chaojiying('qiucl1001', 'qcl_cjy_123456', '903344')
+        
+        # 初始化超级鹰连接对象
+        # <传递三个参数，超级鹰打码平台的用户名，登入密码，验证码对应的类型编号：903344代表返回4-6个点触文字所在位置坐标>
+        self.chaojiying = Chaojiying('', '', '903344')
 
     # def __del__(self):
     #     self.browser.close()

@@ -29,7 +29,7 @@ class TouClick(object):
         self.action_chains = ActionChains(self.browser)
 
         self.username = "qcl"  # 登入用户名
-        self.password = "123456"  # 登入密码
+        self.password = ""  # 登入密码
         self.retry_click_times = 3  # 重复点击登入按钮，触发点触验证码的出现
 
     def get_user_pass_btn_ele(self):

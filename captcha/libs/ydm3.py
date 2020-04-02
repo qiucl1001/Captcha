@@ -7,6 +7,7 @@ from captcha.settings import USERNAME, PASSWORD, APPID, APPKEY, CODETYPE, TIMEOU
 class YDMHttp(object):
     """
     借用三方云打码平台技术栈(验证码平台captcha-platform)
+    使用之前请先前往注册一个账号
     dst_url：http://www.yundama.com/
     """
 
@@ -152,7 +153,7 @@ def identify(content):
 
 
 if __name__ == '__main__':
-    # yundama = YDMHttp("yixiao", "qcl123456", 5744, "59064192fc649008a000568bb1daccc5")
+    # yundama = YDMHttp("云打码平台注册的用户名", "登入密码", 软件id, "软件密钥")
     #
     # # 登陆云打码
     # uid = yundama.login();

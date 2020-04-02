@@ -48,7 +48,7 @@ class Chaojiying(object):
 
 
 if __name__ == '__main__':
-    chaojiying = Chaojiying('qiucl1001', 'qcl_cjy_123456', '903344')  # 用户中心>>软件ID 生成一个替换 96001
+    chaojiying = Chaojiying('超级鹰注册的用户名', '超级鹰注册的登入密码', '903344')  # 用户中心>>软件ID 生成一个替换 96001
     im = open('a.jpg', 'rb').read()  # 本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
     result = chaojiying.post_pic(im, 1902)
     # {'err_no': 0,

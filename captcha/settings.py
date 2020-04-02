@@ -9,10 +9,10 @@ USERNAME = 'yixiao'
 PASSWORD = ''
 
 # 软件ＩＤ，开发者分成必要参数。登录开发者后台【我的软件】获得！
-APPID = 5744
+APPID = ''
 
 # 软件密钥，开发者分成必要参数。登录开发者后台【我的软件】获得！
-APPKEY = '59064192fc649008a000568bb1daccc5'
+APPKEY = ''
 
 # 图片文件
 # FILENAME = 'getimage.jpg'
